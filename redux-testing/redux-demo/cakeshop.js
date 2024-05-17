@@ -8,6 +8,8 @@
 
 // 3. reducer - specify how the application's state changes in response to actions sent to the store
 //  ties the store and actions together
+// holds application  state,allows access to state via getState(), update using dispatch(action)
+// register via subscribe(listener) , unregistering using the function returned by the subscribe(listener)
 // reducer boiler plate
 // Reducer - (prviousState,action)=>newState
 
